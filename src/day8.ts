@@ -1,6 +1,4 @@
-import { parse } from "path";
-import { multiplyArray, readInput, sumArray } from "./common";
-import test from "node:test";
+import { readInput } from "./common";
 
 const testInput = readInput("8", "test");
 const test2Input = readInput("8", "test2");
