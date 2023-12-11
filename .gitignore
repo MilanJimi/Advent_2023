@@ -1,1 +1,4 @@
 node_modules
+
+# Real inputs, because they are not to be shared
+inputs/*/real.in
