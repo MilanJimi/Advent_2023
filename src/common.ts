@@ -10,7 +10,7 @@ export const sumArray = (arr: number[]) =>
 export const multiplyArray = (arr: number[]) =>
   [...arr].reduce((acc, val) => acc * val, 1);
 
-export function memoize<TArgs extends unknown[], TResult>(
+export function memoize<TArgs extends unknown[], TResult, TFun>(
   fn: Function
 ): Function {
   const cache = new Map<string, TResult>();
