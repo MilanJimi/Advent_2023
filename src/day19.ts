@@ -93,6 +93,8 @@ const part1 = {
   real: solvePart1(realInput),
 };
 
+console.log(part1);
+
 const followCheckForInterval = (
   { property, value, check, ifTrue }: Check,
   partInterval: PartInterval
